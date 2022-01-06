@@ -30,14 +30,14 @@ variable "license_type" {
 variable "license" {
   // Change to your own byol license file, license.lic
   type    = string
-  default = "FGVM02TM21008436.lic"
+  default = "replace_with_your_license_one_file_name.lic"
 }
 
 // license file for the passive fgt
 variable "license2" {
   // Change to your own byol license file, license2.lic
   type    = string
-  default = "FGVM02TM21008437.lic"
+  default = "replace_with_your_license_two_file.lic"
 }
 
 #############################################################################################################
@@ -109,17 +109,17 @@ variable "password" {
 # References of your environment
 variable "region" {
   description = "Provide the region to deploy the VPC in"
-  default     = "ap-southeast-2"
+  default     = "ap-southeast-1"
 }
 
 variable "availability_zone1" {
   description = "Provide the first availability zone to create the subnets in"
-  default     = "ap-southeast-2a"
+  default     = "ap-southeast-1a"
 }
 
 variable "availability_zone2" {
   description = "Provide the second availability zone to create the subnets in"
-  default     = "ap-southeast-2b"
+  default     = "ap-southeast-1b"
 }
 ######## Major-Net used
 variable "all_vpc_cidr" {
