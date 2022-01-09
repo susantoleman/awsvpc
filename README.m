@@ -23,7 +23,7 @@ Things to do
         }
       ]
 }
-
+  When creating IAM role, please ensure "APICall_policy" is checked.
 - Create EC2 keypairs. Download the keypair into your desktop and update "variables.tf". Search text for "variable keypair"
 - Update your two FG VM02 license filename in"variables.tf". Search text for "variable license" and "variable license2"
 - After all the files are updated with your own environment configuration, to deploy execute these commands
