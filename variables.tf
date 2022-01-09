@@ -299,7 +299,7 @@ variable "instance_type" {
 
 variable "keypair" {
   description = "Provide a keypair for accessing the FortiGate instances"
-  default     = "sleman-keypairs-sydney"
+  default     = "update_your_key_pair_name"
 }
 
 variable "cidr_for_access" {
