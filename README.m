@@ -1,5 +1,5 @@
 Things to do
-
+- Download terraform app
 - Download these terraform script files
 - Update your AWS region and AZ in "variables.tf". Search text for "variable region".
 - Download your Fortigate VM02 file and put the two files in the same folder as your terraform scripts
