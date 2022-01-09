@@ -1,5 +1,6 @@
 Things to do
 - Network Diagram : https://github.com/susantoleman/awsvpc/blob/master/FGVM%20AP%20in%20AWS.png
+- The scripts will also include the FGVM configuration for HA, N/S and E/W security policy.
 - Download terraform app
 - Download these terraform script files
 - Update your AWS region and AZ in "variables.tf". Search text for "variable region".
